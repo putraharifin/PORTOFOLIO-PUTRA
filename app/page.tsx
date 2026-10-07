@@ -442,7 +442,7 @@ export default function Portfolio() {
         <div className={wrap}>
           <Head e={d.ey[2]} t={d.skillsTitle} />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="skills-grid">
             {d.skills.map(([t, s], i) => {
               const I = icons[i];
 
@@ -474,7 +474,7 @@ export default function Portfolio() {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="projects-grid">
             {list.map((p) => {
               const [title, short] = p.t[lang];
 
@@ -506,7 +506,7 @@ export default function Portfolio() {
 
       <section id="experience" className={sec}>
         <div className={wrap}>
-          <Head e={d.ey[0]} t={d.expTitle} />
+          <Head e={d.ey[4]} t={d.expTitle} />
 
           <div className="border-l-2 border-[#1A1C23] relative pl-8 ml-4">
             {d.exp.map((e) => (
@@ -544,7 +544,7 @@ export default function Portfolio() {
         <div className={wrap}>
           <Head e={d.ey[3]} t={d.certTitle} />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="certificates-grid">
             {certs.map((c) => {
               const [title, org] = c.t[lang];
 
