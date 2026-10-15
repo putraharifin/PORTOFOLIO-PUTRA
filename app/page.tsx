@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 type Lang = "id" | "en";
 
-const CATS = ["All", "Data Analyst", "Machine Learning", "Website", "Android", "Lainnya"];
+const CATS = ["All", "Data Analyst", "AI/Machine Learning", "Website", "Mobile App", "Lainnya"];
 
 const projects = [
   {
@@ -64,20 +64,20 @@ const projects = [
 const certs = [
   {
     id: 1,
-    img: "/certs/1.jpg",
-    y: "2025",
+    img: "/certs/edukasa.jpg",
+    y: "2026",
     t: {
-      id: ["Google Data Analytics", "Coursera"],
-      en: ["Google Data Analytics", "Coursera"],
+      id: ["Pelatihan Nasional Terampil Bekerja dengan AI: Praktik Mengelola Dokumen, Data, dan Presentasi", "Edukasa"],
+      en: ["National Training on Working Skillfully with AI: Practical Applications for Managing Documents, Data, and Presentations", "Edukasa"],
     },
   },
   {
     id: 2,
-    img: "/certs/2.jpg",
-    y: "2025",
+    img: "/certs/Microsoft Azure.jpg",
+    y: "2026",
     t: {
-      id: ["Machine Learning Specialization", "DeepLearning.AI"],
-      en: ["Machine Learning Specialization", "DeepLearning.AI"],
+      id: ["Belajar Penerapan Data Science dengan Microsoft Fabric dan Membangun Aplikasi Gen AI dengan Microsoft Azure", "Microsoft Elevate Training Center Skill Sprint"],
+      en: ["Learning Data Science Implementation with Microsoft Fabric and Building Gen AI Applications with Microsoft Azure", "Microsoft Elevate Training Center Skill Sprint"],
     },
   },
   {
