@@ -358,7 +358,7 @@ export default function Portfolio() {
           {/* Hero Text */}
 
           <div>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-[#EFF3F6]">{NAME}</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[#EFF3F6]">{NAME}</h1>
 
             <p className="mt-4 text-xl sm:text-2xl font-semibold text-[#EFF3F6]">
               {d.im} <span className="text-[#F39C12]">Web Developer</span> / <span className="text-[#F39C12]">Data Analyst</span>
